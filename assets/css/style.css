@@ -27,11 +27,6 @@
   overflow: hidden;
 }
 
-/* Fix Slick not displaying correctly after initialization */
-.tools_slider.slick-initialized {
-  display: block !important;
-}
-
 .project_video iframe {
   position: absolute;
   inset: 0;
