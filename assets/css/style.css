@@ -36,7 +36,58 @@
 }
 
 .instagram-media {
-  max-width: 100% !important;
   width: 100% !important;
+  min-height: 400px !important;
 }
 
+
+/* Tools Section Styles */
+.tools_slider {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Individual items */
+.tool_item {
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.tool_item img {
+  width: 60px;
+  transition: 0.3s ease;
+  filter: drop-shadow(0 0 10px rgba(140, 91, 255, 0.15));
+}
+
+/* Hover Glow Effect */
+.tool_item:hover img {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 18px rgba(140, 91, 255, 0.8));
+}
+
+.tool_item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+/* Mobile Slider (slick.js formatting) */
+.tools_slider.slick-slider {
+  display: block !important;
+}
+
+.slick-slide {
+  text-align: center;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #8c5bff !important;
+}
+
+/* Fade for modern feel */
+.tools_slider.slick-slider img {
+  opacity: 0.9;
+}
+  
