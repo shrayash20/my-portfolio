@@ -90,4 +90,14 @@
 .tools_slider.slick-slider img {
   opacity: 0.9;
 }
+
+.video-wrapper iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.video-wrapper {
+  padding-top: 56.25% !important; /* exact 16:9 like first video */
+}
+
   
